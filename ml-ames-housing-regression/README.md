@@ -11,7 +11,6 @@ A beginner machine learning project using the **Ames Housing dataset** to predic
 
 - `/ml-multiple-linear-regression/notebooks/ames_housing_multiple_linear_regression.ipynb`: Main notebook
 - `pyproject.toml`: Poetry-managed dependencies
-- `poetry.lock`: Locked versions for reproducibility
 - `/data/AmesHousing.csv`: Raw dataset
 
 ## Features & Tools
@@ -23,14 +22,6 @@ A beginner machine learning project using the **Ames Housing dataset** to predic
 -  Forward stepwise feature selection (`SequentialFeatureSelector`)
 -  Evaluation using RMSE, MSE, and R²
 -  Visualization of actual vs predicted prices
-
-## How to Run
-
-1. Clone the repository
-2. Run: `poetry install`
-3. Activate: `poetry shell`
-4. Launch Jupyter: `jupyter notebook`
-5. Open the notebook in `/notebooks/` and run all cells
 
 ## Steps Covered
 
